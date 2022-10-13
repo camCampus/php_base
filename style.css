@@ -86,3 +86,9 @@ form {
     justify-content: space-between;
     align-items: center;
 }
+.error {
+    color: red;
+}
+.valid {
+    color: green;
+}

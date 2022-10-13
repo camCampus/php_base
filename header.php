@@ -20,19 +20,13 @@
     <nav>
         <h2>Mon site</h2>
         <ul>
-            <form action="index.php" method="get">
-            <li>
-                <button name="page" value="home">
-                    <a>Home</a>
-                </button>
 
+            <li>
+                <a href="index.php?page=home">Home</a>
             </li>
             <li>
-                <button name="page" value="contact">
-                    <a>Contact</a>
-                </button>
+                <a href="index.php?page=contact">Contact</a>
             </li>
-            </form>
         </ul>
     </nav>
 </header>
