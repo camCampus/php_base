@@ -2,7 +2,7 @@
 
 <?php
 
-$requested_page = $_GET['page'] ?? 'home';
+$requested_page = $_GET['page'] ? : 'home';
 
 match($requested_page) {
    "home" => include(__DIR__."/accueil.php"),
